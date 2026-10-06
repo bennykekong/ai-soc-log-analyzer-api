@@ -441,6 +441,17 @@ Latest verified workflow result:
 This provides automated verification that the detection engine continues to function after code changes.
 
 ---
+## 📸 CI Test Evidence
+
+The GitHub Actions workflow successfully completed the automated Pytest suite.
+
+![GitHub Actions Pytest Success](screenshots/02-pytest-3-tests-passed.png)
+
+**Verified result:** `3 passed`
+
+This confirms that the automated detection tests for failed-login bursts, port scanning and suspicious outbound connections are functioning successfully.
+
+---
 
 ## 💻 Run the Project Locally
 
